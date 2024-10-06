@@ -1,0 +1,30 @@
+.f-container{
+    justify-content: space-around;
+}
+
+@media (max-width:640px) {
+    .f-container>div{
+     align-items: center;
+       
+    }
+    
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+
+.f-right{
+    gap: 0.2rem;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.f-menu>span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
